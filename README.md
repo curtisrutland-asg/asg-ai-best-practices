@@ -71,7 +71,3 @@ These need user input before Phase C (template assembly):
 3. Existing internal docs to incorporate (Confluence / SharePoint / wiki)?
 4. Will other ASG developers be interviewed, or is the user sole-source?
 
-## Plan of record
-
-`C:\Users\inser\.claude\plans\i-am-interested-in-cryptic-quiche.md`
-(approved 2026-05-11).
