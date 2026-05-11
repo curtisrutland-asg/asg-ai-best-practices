@@ -10,6 +10,12 @@ URL structure, HTTP method usage, status codes, versioning, JSON shape.
 Does **not** cover validation (future topic), auth (future topic), or
 caching/ETag (future topic).
 
+**Server-rendered HTML is a separate concern** — see
+`topics/server-rendered-web.md`. The "MVC Controllers, not Minimal
+APIs" answer below is specifically for JSON API endpoints. The
+parallel question for server-rendered HTML (Razor Pages vs MVC + Views)
+is answered in `decisions/0007` (Razor Pages is the ASG default).
+
 ---
 
 ## Interview questions

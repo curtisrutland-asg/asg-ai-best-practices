@@ -94,6 +94,13 @@ Status legend:
   validation lives.
 - `[ ]` **Background work** — hosted services, queues, schedulers.
 - `[ ]` **Health checks** — readiness/liveness probes, registration.
+- `[~]` **Server-rendered web (Razor Pages)** — framework choice
+  confirmed 2026-05-11 (Razor Pages is the ASG default; see
+  `decisions/0007`). All other conventions still open: page handlers,
+  tag helpers vs HTML helpers, anti-forgery policy, layouts, partials,
+  view components, model binding, validation pattern, frontend
+  asset bundling. Flagged from gaps surfaced by
+  `examples/CLAUDE.razor-pages.md`.
 
 ## Web frontend-specific
 
