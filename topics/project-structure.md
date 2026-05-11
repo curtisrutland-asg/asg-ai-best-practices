@@ -76,10 +76,17 @@ General:
   framework choice is settled.
 - Top-level `scripts/`, `tools/`, `infra/`, `docs/` folder conventions —
   not yet established.
-- Standard `.gitignore` / `README.md` starter — not yet established.
 - Files/folders agents should never touch (generated code, vendored deps) —
   not yet established. Default: leave anything obviously generated alone
   and confirm before touching.
+
+**Moved to other topics:**
+
+- `.gitignore` / `.gitattributes` / `.editorconfig` / `global.json` /
+  `nuget.config` and other repo-root scaffolding files — see
+  `topics/repo-scaffolding.md`.
+- `README.md` starter outline — currently open in
+  `topics/repo-scaffolding.md`.
 
 ## Rationale
 

@@ -22,10 +22,15 @@ Already captured (see Convention section):
 
 Still open:
 
-1. `.editorconfig` — does ASG have a starter file? Or rely on the
-   Microsoft default and only add ASG-specific overrides?
-2. Analyzers / Roslyn rules — anything enforced beyond compiler defaults
+1. Analyzers / Roslyn rules — anything enforced beyond compiler defaults
    (e.g., StyleCop, Roslynator, custom rule set)?
+
+Moved to other topics:
+
+- `.editorconfig` starter file (Microsoft default + ASG overrides) —
+  owned by `topics/repo-scaffolding.md`. This topic is still the
+  policy authority for *what* the rules say; `.editorconfig` is the
+  enforcement file.
 
 ---
 
